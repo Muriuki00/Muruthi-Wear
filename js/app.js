@@ -60,7 +60,7 @@ function card(p) {
   const prices = p.variants.map(v => v.price), lo = Math.min(...prices), hi = Math.max(...prices);
   return el("article", {class: "card", onclick: () => openModal(p)}, picture(p),
     el("div", {class: "info"},
-      el("span", {class: "tag"}, p.category === "Food" ? "Food and drink" : "Clothing"),
+      el("span", {class: "tag"}, p.category === "Food" ? "Kenyan goodies" : "Clothing"),
       el("h3", {}, p.title),
       el("p", {}, p.description),
       el("div", {class: "row"},
