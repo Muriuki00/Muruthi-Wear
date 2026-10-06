@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Savanna Pantry | Kenyan food and clothing, shipped across Australia</title>
+<meta name="description" content="Kenyan coffee, tea, spices, kikoy, kitenge and shuka, shipped Australia-wide.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://cdn.shopify.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' https://*.myshopify.com; base-uri 'self'; form-action 'self'">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="topbar">Free shipping over A$100 Australia-wide. Prices in AUD, GST included.</div>
+<div class="shuka" aria-hidden="true"></div>
+<header class="site-header"><div class="wrap nav">
+  <a class="logo" href="#">Savanna<span>Pantry</span></a>
+  <nav aria-label="Main"><a href="#shop">Shop</a><a href="#delivery">Delivery</a></nav>
+  <button class="cart-btn" id="open-cart" type="button">Cart (<span id="count">0</span>)</button>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <h1>Kenya's kitchen and wardrobe, at your door in Australia.</h1>
+      <p>Single-origin coffee, Kericho tea, spice blends, maize flour, and handmade kikoy, kitenge and shuka.</p>
+      <a class="btn" href="#shop">Shop now</a>
+    </div>
+    <div class="panel" role="img" aria-label="Maasai shuka inspired red check pattern"></div>
+  </section>
+
+  <section id="shop">
+    <h2>Shop</h2>
+    <div class="filters" id="filters">
+      <button class="chip" type="button" data-f="all" aria-pressed="true">All</button>
+      <button class="chip" type="button" data-f="Food" aria-pressed="false">Food and drink</button>
+      <button class="chip" type="button" data-f="Clothing" aria-pressed="false">Clothing</button>
+    </div>
+    <div class="grid" id="grid" aria-live="polite"></div>
+  </section>
+
+  <section class="facts" id="delivery">
+    <div><h3>Ships from Australia</h3><p>Orders leave our stockroom in 1 to 2 business days.</p></div>
+    <div><h3>Free over A$100</h3><p>Flat A$9.95 shipping on smaller orders.</p></div>
+    <div><h3>Labelled for Australia</h3><p>Ingredients and allergens listed on every food product.</p></div>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="wrap">© 2026 Savanna Pantry. Asante sana for shopping with us.</div></footer>
+
+<aside id="drawer" aria-label="Shopping cart" aria-hidden="true">
+  <div class="drawer-head"><h2>Your cart</h2><button class="chip" id="close-cart" type="button">Close</button></div>
+  <div id="lines"></div>
+  <div class="total"><b>Subtotal</b><b id="subtotal">A$0.00</b></div>
+  <p class="note">Shipping and GST are calculated at checkout.</p>
+  <p class="note" id="msg" role="status"></p>
+  <button class="btn" id="checkout" type="button">Checkout</button>
+</aside>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

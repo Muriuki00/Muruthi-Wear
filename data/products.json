@@ -1,0 +1,66 @@
+[
+  {
+    "variantId": "0000000001",
+    "category": "Food",
+    "title": "Kenya AA Coffee, 250g",
+    "description": "Medium roast, whole bean. Bright and berry-like.",
+    "price": 19.5,
+    "image": "assets/images/products/kenya-aa-coffee.jpg"
+  },
+  {
+    "variantId": "0000000002",
+    "category": "Food",
+    "title": "Kericho Tea, 100 bags",
+    "description": "Strong black tea from the Rift Valley highlands.",
+    "price": 12.9,
+    "image": "assets/images/products/kericho-tea.jpg"
+  },
+  {
+    "variantId": "0000000003",
+    "category": "Food",
+    "title": "Pilau Masala, 100g",
+    "description": "Cumin, cardamom, clove and cinnamon for rice.",
+    "price": 6.5,
+    "image": "assets/images/products/pilau-masala.jpg"
+  },
+  {
+    "variantId": "0000000004",
+    "category": "Food",
+    "title": "Maize Flour (Ugali), 2kg",
+    "description": "Finely milled white maize meal.",
+    "price": 11.0,
+    "image": "assets/images/products/maize-flour.jpg"
+  },
+  {
+    "variantId": "0000000005",
+    "category": "Clothing",
+    "title": "Kikoy Beach Wrap",
+    "description": "Soft cotton, striped, 100 x 170 cm.",
+    "price": 42.0,
+    "image": "assets/images/products/kikoy-wrap.jpg"
+  },
+  {
+    "variantId": "0000000006",
+    "category": "Clothing",
+    "title": "Kitenge Shirt (Men's)",
+    "description": "African wax print cotton, tailored fit.",
+    "price": 79.0,
+    "image": "assets/images/products/kitenge-shirt.jpg"
+  },
+  {
+    "variantId": "0000000007",
+    "category": "Clothing",
+    "title": "Maasai Shuka Blanket",
+    "description": "Red check wool-blend throw, 150 x 180 cm.",
+    "price": 65.0,
+    "image": "assets/images/products/shuka-blanket.jpg"
+  },
+  {
+    "variantId": "0000000008",
+    "category": "Clothing",
+    "title": "Beaded Bracelet",
+    "description": "Handmade by artisans in Kajiado. Assorted colours.",
+    "price": 18.0,
+    "image": "assets/images/products/beaded-bracelet.jpg"
+  }
+]
