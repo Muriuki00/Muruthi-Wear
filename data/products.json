@@ -1,0 +1,149 @@
+[
+  {
+    "id": "kenya-aa-coffee",
+    "category": "Food",
+    "title": "Kenya AA Coffee",
+    "description": "Medium roast. Bright and berry-like.",
+    "price": 19.5,
+    "image": "assets/images/products/kenya-aa-coffee.jpg",
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          {
+            "label": "250g",
+            "price": 19.5
+          },
+          {
+            "label": "500g",
+            "price": 36
+          },
+          {
+            "label": "1kg",
+            "price": 68
+          }
+        ]
+      },
+      {
+        "name": "Grind",
+        "values": [
+          "Whole bean",
+          "Ground"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kericho-tea",
+    "category": "Food",
+    "title": "Kericho Tea, 100 bags",
+    "description": "Strong black tea from the Rift Valley highlands.",
+    "price": 12.9,
+    "image": "assets/images/products/kericho-tea.jpg"
+  },
+  {
+    "id": "pilau-masala",
+    "category": "Food",
+    "title": "Pilau Masala",
+    "description": "Cumin, cardamom, clove and cinnamon for rice.",
+    "price": 6.5,
+    "image": "assets/images/products/pilau-masala.jpg",
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          {
+            "label": "100g",
+            "price": 6.5
+          },
+          {
+            "label": "250g",
+            "price": 14
+          },
+          {
+            "label": "1kg",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "name": "Heat",
+        "values": [
+          "Mild",
+          "Chilli"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maize-flour",
+    "category": "Food",
+    "title": "Maize Flour (Ugali), 2kg",
+    "description": "Finely milled white maize meal.",
+    "price": 11.0,
+    "image": "assets/images/products/maize-flour.jpg"
+  },
+  {
+    "id": "kikoy-wrap",
+    "category": "Clothing",
+    "title": "Kikoy Beach Wrap",
+    "description": "Soft cotton, 100 x 170 cm.",
+    "price": 42.0,
+    "image": "assets/images/products/kikoy-wrap.jpg",
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Ocean",
+          "Sunset",
+          "Forest"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kitenge-shirt",
+    "category": "Clothing",
+    "title": "Kitenge Shirt (Men's)",
+    "description": "African wax print cotton, tailored fit.",
+    "price": 79.0,
+    "image": "assets/images/products/kitenge-shirt.jpg",
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shuka-blanket",
+    "category": "Clothing",
+    "title": "Maasai Shuka Blanket",
+    "description": "Red check wool-blend throw, 150 x 180 cm.",
+    "price": 65.0,
+    "image": "assets/images/products/shuka-blanket.jpg"
+  },
+  {
+    "id": "beaded-bracelet",
+    "category": "Clothing",
+    "title": "Beaded Bracelet",
+    "description": "Handmade by artisans in Kajiado.",
+    "price": 18.0,
+    "image": "assets/images/products/beaded-bracelet.jpg",
+    "options": [
+      {
+        "name": "Colour",
+        "values": [
+          "Red",
+          "Green",
+          "Black"
+        ]
+      }
+    ]
+  }
+]
