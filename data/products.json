@@ -34,45 +34,56 @@
     ]
   },
   {
-    "id": "kericho-tea",
+    "id": "achari",
     "category": "Food",
-    "title": "Kericho Tea, 100 bags",
-    "description": "Strong black tea from the Rift Valley highlands.",
-    "price": 12.9,
-    "image": "assets/images/products/kericho-tea.jpg"
-  },
-  {
-    "id": "pilau-masala",
-    "category": "Food",
-    "title": "Pilau Masala",
-    "description": "Cumin, cardamom, clove and cinnamon for rice.",
-    "price": 6.5,
-    "image": "assets/images/products/pilau-masala.jpg",
+    "title": "Achari",
+    "description": "Sweet and tangy. Bold and addictive.",
+    "price": 8,
+    "image": "assets/images/products/achari.jpg",
     "options": [
       {
         "name": "Size",
         "values": [
           {
             "label": "100g",
-            "price": 6.5
+            "price": 8
           },
           {
-            "label": "250g",
-            "price": 14
+            "label": "500g",
+            "price": 30
           },
           {
             "label": "1kg",
-            "price": 45
+            "price": 55
           }
         ]
       },
       {
-        "name": "Heat",
+        "name": "Flavour",
         "values": [
-          "Mild",
-          "Chilli"
+          "Chili",
+          "No-Chili"
         ]
       }
+    ]
+  },
+  {
+    "id": "hostess-maize-meal",
+    "category": "Food",
+    "title": "Hostess Maize Meal",
+    "description": "Cumin, cardamom, clove and cinnamon for rice.",
+    "price": 20,
+    "image": "assets/images/products/hostess-maize-meal.jpg",
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          {
+            "label": "2kg",
+            "price": 20
+          },
+        ]
+      },
     ]
   },
   {
