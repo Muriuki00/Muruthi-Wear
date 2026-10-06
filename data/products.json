@@ -1,34 +1,34 @@
 [
   {
     "id": "mabuyu",
-    "category": "Food",
+    "category": "Kenyan Goodies",
     "title": "Mabuyu",
-    "description": "Medium roast. Bright and berry-like.",
-    "price": 19.5,
+    "description": "Sweet and tangy. Bold and addictive.",
+    "price": 5,
     "image": "assets/images/products/mabuyu.jpg",
     "options": [
       {
         "name": "Size",
         "values": [
           {
-            "label": "250g",
-            "price": 19.5
+            "label": "100g",
+            "price": 5
           },
           {
             "label": "500g",
-            "price": 36
+            "price": 20
           },
           {
             "label": "1kg",
-            "price": 68
+            "price": 40
           }
         ]
       },
       {
-        "name": "Grind",
+        "name": "Flavour",
         "values": [
-          "Whole bean",
-          "Ground"
+          "Chili",
+          "No-Chili"
         ]
       }
     ]
